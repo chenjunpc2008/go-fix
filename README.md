@@ -14,7 +14,7 @@ Go FIX client
 ---
 for example: ```example/demoServer```
 
-1. Create a struct for server event call back, and put your own tcp protocol package pack/depack method in Pack()/Depack()
+1. Create a struct for server event call back, and put your own message process in the callback functions.
     ```go
     type myApp struct {
     }
@@ -68,7 +68,7 @@ for example: ```example/demoServer```
 ---
 for example: ```example/fixTradeClient```
 
-1. Create a struct for server event call back, and put your own tcp protocol package pack/depack method in Pack()/Depack()
+1. Create a struct for server event call back, and put your own message process in the callback functions.
     ```go
     type tradeCliApp struct {
     }
